@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pong!</title>
+		<link rel="stylesheet" href="css/theme.css">
+	</head>
+	<body>
+		<div class="pong">
+			<div class="score playerA"> <p>You</p> <h1>0</h1> </div>
+			
+			<div class="game-canvas">
+				<canvas width="700" height="400"></canvas>
+				<div class="menu">
+					<h1>Pong</h1>
+					
+					<ul class="new">
+						<li class="start-ease">easy</li>
+						<li class="start-normal">normal</li>
+						<li class="start-hard">hard</li>
+					</ul>
+
+					<ul class="pause">
+						<li class="resume-game">resume</li>
+						<li class="new-game">new game</li>
+					</ul>
+					
+					<div class="winner">
+						<h2> <b></b>,the winner! </h2>
+
+						<ul>
+							<li class="new-game">new game</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="score playerB"> <p>Computer</p> <h1>0</h1> </div>
+
+			<div class="instructions">
+				Instructions:<br>
+				Press ESC for pause/restart the game <br />
+				Use your mouse to move up/down <br />
+				Enjoy!
+			</div>
+		</div>
+		<script src="Pong.js"></script>
+	</body>
+</html>
