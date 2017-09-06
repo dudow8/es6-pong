@@ -1,4 +1,4 @@
-# Pong! - ES6 Javascript
+# Pong! - ES6 Javascript version
 This game was developed using ES6 Javascript and HTML5 canvas
 
 ## Dependencies
