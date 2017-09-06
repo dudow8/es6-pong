@@ -1,4 +1,4 @@
-# Pong! - Typescript version
+# Pong! - ES6 Javascript
 This game was developed using ES6 Javascript and HTML5 canvas
 
 ## Dependencies
